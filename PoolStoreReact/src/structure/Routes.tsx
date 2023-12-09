@@ -1,3 +1,5 @@
+import HomePage from "../Pages/HomePage/HomePage";
+import ItemPage from "../Pages/ItemPage/ItemPage";
 import App from "./../App";
 import { /*Navigate,*/ createBrowserRouter } from "react-router-dom";
 
@@ -5,7 +7,10 @@ export const router = createBrowserRouter([
   {
     path: "/",
     element: <App />,
-    children: [],
+    children: [
+      { path: "/", element: <HomePage /> },
+      { path: "/Items", element: <ItemPage /> },
+    ],
     /* children: [
         { path: "/", element: <HomePage /> },
         { path: "/about", element: <AboutPage /> },

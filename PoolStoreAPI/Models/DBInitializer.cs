@@ -42,7 +42,7 @@ namespace PoolStoreAPI.Models
                     {
                         ImageURL = "https://th.bing.com/th/id/OIP.KwJeaJQFjzi_TDR5J35k1AHaHa?w=195&h=194&c=7&r=0&o=5&pid=1.7",
                         AvailableInventory = 13,
-                        Cost = 5.91M,
+                        Cost = 5.91f,
                         LocationId = 1,
                         Name = "Intex Pool Pump"
                     },
@@ -50,7 +50,7 @@ namespace PoolStoreAPI.Models
                     {
                         ImageURL = "https://th.bing.com/th/id/OIP.GpLfNotdPAi3kdAi8mZ_JQHaF7?w=259&h=207&c=7&r=0&o=5&pid=1.7",
                         AvailableInventory = 10,
-                        Cost = 50.50M,
+                        Cost = 50.50f,
                         LocationId = 2,
                         Name = "Pool Cleaner X500"
                     },
@@ -58,7 +58,7 @@ namespace PoolStoreAPI.Models
                     {
                         ImageURL = "https://th.bing.com/th/id/OIP.GpLfNotdPAi3kdAi8mZ_JQHaF7?w=259&h=207&c=7&r=0&o=5&pid=1.7",
                         AvailableInventory = 5,
-                        Cost = 50.50M,
+                        Cost = 50.50f,
                         LocationId = 1,
                         Name = "Pool Cleaner X500"
                     },

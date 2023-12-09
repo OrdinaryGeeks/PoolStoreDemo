@@ -6,10 +6,6 @@ namespace PoolStoreAPI.Models{
 public class User:IdentityUser{
 
 
-public User():base()
-{
-
-}
 
 
 }

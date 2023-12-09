@@ -55,7 +55,7 @@ const requests = {
 };
 
 const Item = {
-  getItem: (value: number) => requests.get("items" + value),
+  getItem: (value: number) => requests.get("items/" + value),
   createItem: (values: object) => requests.post("items", values),
   listItems: () => requests.get("items"),
   updateItem: (values: object) => requests.put("items/" + values, values),
